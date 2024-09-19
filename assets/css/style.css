@@ -107,8 +107,12 @@ footer {
 h3 {
 	font-family: "pc98";
 	font-size: 28px;
-	margin: 15px 0 5px 0;
+	margin: 10px 0 5px 0;
 	line-height: 1;
+}
+
+#friends {
+	margin: -5px 0 5px 0;
 }
 
 ul {
