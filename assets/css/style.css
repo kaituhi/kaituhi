@@ -28,7 +28,7 @@ html {
 
 body {
 	background-color: #0f0f0f;
-	color: #ddd;
+	color: #f7eee5;
 	animation: fade_in 750ms;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -60,7 +60,7 @@ body {
 }
 
 #logo-container > img {
-	width: 140px;
+	width: 130px;
 	max-width: 100%;
 	height: auto;
 }
@@ -77,9 +77,9 @@ body {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 42px;
 	padding: 0;
-	margin: 20px 0;
+	margin: 10px 0;
 	line-height: 1;
 	text-shadow: 5px 5px #555;
 }
@@ -156,14 +156,9 @@ b {
 .menuitem {
 	position: relative;
 	display: inline;
-	text-shadow: 4px 4px #444;
+	text-shadow: 2px 2px #444;
 	margin: 0 8px;
 	text-align: center;
-}
-
-.menuitem:hover {
-	text-shadow: 2px 2px #444;
-	transform: translate(2px, 2px);
 }
 
 @keyframes fade_in {
@@ -187,8 +182,8 @@ b {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		width: 769px;
-		max-width: 768px;
+		width: 669px;
+		max-width: 668px;
 	}
 
 	#logo-container {
@@ -206,14 +201,13 @@ b {
 	}
 
 	h1 {
-		font-size: 72px; 
+		font-size: 60px; 
 		text-align: left; 
-		text-shadow: 5px 5px #555; 
 	}
 
 	#content {
-		width: 769px;
-		max-width: 768px;
+		width: 669px;
+		max-width: 668px;
 	}
 
 	#navigation-container {
